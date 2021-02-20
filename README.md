@@ -2,7 +2,8 @@
 
 Android Mobile App Client for the ContactBook RESTful API.
  - Technologies: Java, Android SDK, Retrofit HTTP client
- - 
+ - Platform: Android
+
 About ContactBook:
  - ContactBook app: https://github.com/nakov/ContactBook
  - API endpoint: https://contactbook.nakov.repl.co/api
