@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:labelFor="@id/editTextApiUrl"
-            android:text="@string/labelContactBookAPI" />
+            android:text="@string/labelTaskBoardAPI" />
 
         <EditText
             android:id="@+id/editTextApiUrl"

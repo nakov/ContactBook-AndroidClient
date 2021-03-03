@@ -1,4 +1,4 @@
-package contactbook.androidclient.data;
+package TaskBoard.androidclient.data;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 
-public interface ContactBookAPI {
+public interface TaskBoardAPI {
     @GET("contacts")
     Call<List<Contact>> getContacts();
 

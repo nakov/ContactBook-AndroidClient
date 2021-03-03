@@ -1,4 +1,4 @@
-package contactbook.androidclient.ui;
+package TaskBoard.androidclient.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -16,9 +16,9 @@ import android.widget.TextView;
 import java.net.HttpURLConnection;
 import java.util.List;
 
-import contactbook.androidclient.R;
-import contactbook.androidclient.data.Contact;
-import contactbook.androidclient.data.ContactBookAPI;
+import TaskBoard.androidclient.R;
+import TaskBoard.androidclient.data.Contact;
+import TaskBoard.androidclient.data.TaskBoardAPI;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -62,7 +62,7 @@ public class ActivitySearchContacts extends AppCompatActivity {
                 .baseUrl(this.apiBaseUrl)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
-        ContactBookAPI service = retrofit.create(ContactBookAPI.class);
+        TaskBoardAPI service = retrofit.create(TaskBoardAPI.class);
 
         Call<List<Contact>> request = service.findContactsByKeyword(keyword);
         Context context = this;
