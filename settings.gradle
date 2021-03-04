@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "TaskBoard-AndroidClient"
+rootProject.name = "ContactBook-AndroidClient"

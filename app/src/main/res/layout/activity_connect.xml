@@ -22,21 +22,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:labelFor="@id/editTextApiUrl"
-            android:text="@string/labelTaskBoardAPI" />
+            android:text="@string/labelTaskBoardAPI"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/editTextApiUrl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:ems="10"
             android:inputType="textUri"
-            android:text="@string/defaultApiUrl" />
+            android:text="@string/defaultApiUrl"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/buttonConnect"
+            style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/buttonConnectTitle" />
+            android:text="@string/buttonConnectTitle"
+            android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

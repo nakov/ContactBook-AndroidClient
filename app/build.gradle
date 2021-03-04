@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "TaskBoard.androidclient"
+        applicationId "contactbook.androidclient"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
