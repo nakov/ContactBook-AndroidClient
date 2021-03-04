@@ -1,4 +1,4 @@
-package taskboard.androidclient.ui;
+package TaskBoard.androidclient.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
-import taskboard.androidclient.R;
+import TaskBoard.androidclient.R;
 
 public class ActivityConnect extends AppCompatActivity {
     @Override
@@ -16,12 +16,12 @@ public class ActivityConnect extends AppCompatActivity {
         setContentView(R.layout.activity_connect);
 
         Button buttonConnect = findViewById(R.id.buttonConnect);
-        buttonConnect.requestFocus();
         EditText editTextApiUrl = findViewById(R.id.editTextApiUrl);
 
         buttonConnect.setOnClickListener(v -> {
             String apiUrl = editTextApiUrl.getText().toString();
-            Intent intent = new Intent(this, ActivityTasks.class);
+            ActivitySearchContacts activitySearchContacts = new ActivitySearchContacts();
+            Intent intent = new Intent(this, ActivitySearchContacts.class);
             intent.putExtra("paramApiBaseUrl", apiUrl);
             startActivity(intent);
         });
