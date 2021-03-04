@@ -1,4 +1,4 @@
-package TaskBoard.androidclient.data;
+package contactbook.androidclient.data;
 
 public class Contact {
     private int id;

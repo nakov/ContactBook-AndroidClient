@@ -1,4 +1,4 @@
-package TaskBoard.androidclient.ui;
+package contactbook.androidclient.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import TaskBoard.androidclient.R;
-import TaskBoard.androidclient.data.Contact;
+import contactbook.androidclient.R;
+import contactbook.androidclient.data.Contact;
 
 public class ContactsAdapter extends
         RecyclerView.Adapter<ContactsAdapter.ViewHolder> {

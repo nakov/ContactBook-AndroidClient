@@ -1,4 +1,4 @@
-package TaskBoard.androidclient.ui;
+package contactbook.androidclient.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 
-import TaskBoard.androidclient.R;
+import contactbook.androidclient.R;
 
 public class ActivityConnect extends AppCompatActivity {
     @Override
